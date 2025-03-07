@@ -18,7 +18,7 @@ I'm developing an Ansible-based backup automation project for firewalls (Fortine
 
 
 ## Topology 
-![Project Logo](assets/pnetlogo.png)
+![Project Logo](AAA.png)
 
 
 ## Steps
