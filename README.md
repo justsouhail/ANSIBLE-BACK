@@ -97,7 +97,7 @@ ansible_httpapi_use_ssl=no
 ##  fortigate 
 
 ### Firewall model
-![Project Logo](assets/forti.png)
+
 
 
 
