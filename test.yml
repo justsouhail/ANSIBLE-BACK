@@ -1,9 +1,7 @@
-- name: Install necessary software
-  hosts: group1
-  gather_facts: false
-  strategy: free
-  become: true
+- name: Update apt cache and install packages
+  hosts: all
+  become: true  # <--- this is required
   tasks:
-    - name: Update the software package dependency
-      ansible.builtin.apt:
+    - name: Update apt cache
+      apt:
         update_cache: yes
