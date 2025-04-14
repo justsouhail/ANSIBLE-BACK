@@ -1,6 +1,7 @@
 - name: Update apt cache and install packages
   hosts: all
-  become: true  # <--- this is required
+  become: yes 
+  become_user: root
   tasks:
     - name: Update apt cache
       apt:
